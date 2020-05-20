@@ -6,7 +6,7 @@ namespace SimulateBranchStrategy
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(SampleService.TestMethod("abcd"));
+            Console.WriteLine(SampleService.TestMethod("abcd", 456));
             Console.WriteLine(AdditionalSampleService.Add(1, 2));
         }
     }
