@@ -8,7 +8,7 @@ namespace SimulateBranchStrategy
     {
         public static string TestMethod(string value)
         {
-            return $"value: {value}";
+            return $"value: {value} sprint 1";
         }
     }
 }
