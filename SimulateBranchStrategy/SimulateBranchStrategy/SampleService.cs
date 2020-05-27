@@ -8,6 +8,7 @@ namespace SimulateBranchStrategy
     {
         public static string TestMethod(string value, int no)
         {
+            Console.WriteLine("bugfix pbi 123");
             return $"value: {value} sprint 1 - bugfix, {no}";
         }
     }
